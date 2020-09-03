@@ -1,0 +1,15 @@
+[
+{
+  "modid": "simonmod",
+  "name": "OlManSimon",
+  "description": "Grow *anything*",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["iamcarbonman"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

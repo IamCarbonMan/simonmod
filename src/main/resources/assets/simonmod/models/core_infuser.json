@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "down": "simonmod:blocks/core_infuser_bottom",
+    "up": "simonmod:blocks/core_infuser_top",
+    "north": "simonmod:blocks/core_infuser_side",
+    "east": "simonmod:blocks/core_infuser_side",
+    "south": "simonmod:blocks/core_infuser_side",
+    "west": "simonmod:blocks/core_infuser_side"
+  }
+}
