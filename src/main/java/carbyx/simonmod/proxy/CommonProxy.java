@@ -1,6 +1,7 @@
 package carbyx.simonmod.proxy;
 
 import carbyx.simonmod.blocks.CoreInfuser;
+import carbyx.simonmod.items.InfusionCore;
 import carbyx.simonmod.registry.BlockRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -28,7 +29,8 @@ public class CommonProxy {
     @SubscribeEvent
     public static void registerItems (RegistryEvent.Register<Item> e) {
         e.getRegistry().registerAll(
-                new ItemBlock(BlockRegistry.core_infuser).setRegistryName(BlockRegistry.core_infuser.getRegistryName())
+                new ItemBlock(BlockRegistry.core_infuser).setRegistryName(BlockRegistry.core_infuser.getRegistryName()),
+                new InfusionCore()
         );
     }
 }

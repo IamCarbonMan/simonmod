@@ -1,6 +1,7 @@
 package carbyx.simonmod.proxy;
 
 import carbyx.simonmod.registry.BlockRegistry;
+import carbyx.simonmod.registry.ItemRegistry;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -17,5 +18,6 @@ public class ClientProxy extends CommonProxy {
     @SubscribeEvent
     public static void registerModels (ModelRegistryEvent e) {
         BlockRegistry.initModels();
+        ItemRegistry.initModels();
     }
 }
